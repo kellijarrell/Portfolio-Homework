@@ -14,6 +14,14 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
+    <!--Icons-->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+
   <!--Personal CSS-->
 
   <link rel="stylesheet" href="./assets/all-pages-style.css" />
@@ -55,10 +63,17 @@
   <!--Contact Info-->
 
   <main>
-
-    <div class="container">
+      
       <form>
-        <h3>Contact</h3>
+
+      <div class="row">
+        <div class="col-sm-12">
+          <h1 id="title">Contact</h1>
+          <br>
+          <hr>
+        </div>
+  
+      </div>
         <div class="form-group">
           <label for="exampleFormControlInput1">Name:</label>
           <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="John Doe">
@@ -72,14 +87,20 @@
           <label for="exampleFormControlTextarea1">Message</label>
           <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
         </div>
-        <button type="submit" class="btn btn-secondary">Submit</button>
-      </form>
+        <button type="submit" class="btn btn-outline-light">Submit</button>
     </div>
+      </form>
+      <br>
 
   </main>
 
   <footer>
-    <p>Copyright Kelli Jarrell 2020</p>
+    <div>
+      <a href="https://github.com/kellijarrell" target="_blank">
+        <button class="btn gitBtn">Github <i class="fab fa-github"></i> |</button></a>
+        <a href="https://www.linkedin.com/in/kelli-jarrell-b71313112/" target="_blank">
+        <button class="btn gitBtn">linkedin <i class="fab fa-linkedin"> |</i></button></a>
+      </div>
   </footer>
 
 

@@ -10,6 +10,15 @@
   <link href="https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap" rel="stylesheet">
 
 
+     <!--Icons-->
+     <link
+     rel="stylesheet"
+     href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+     integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+     crossorigin="anonymous"
+   />
+
+
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -39,10 +48,10 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-          <a class="nav-link" href="index.html">About</a>
+          <a class="nav-link" href="index.html">About |</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact</a>
+          <a class="nav-link" href="contact.html">Contact |</a>
         </li>
         <li class="nav-item active">
           <a class="nav-link" href="portfolio.html">Portfolio</a>
@@ -52,77 +61,75 @@
   </nav>
 
   <!--Portfolio-->
+<main id="content">
 
-  <main>
-
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <h3 id="port-title">Portfolio</h3>
-        </div>
-
+    <div class="row">
+      <div class="col-sm-12">
+        <h1 id="port-title">Portfolio</h1>
+        <hr>
       </div>
 
-      <div class="row">
-        <div class="col-sm-6">
-          <img src="http://placehold.it/200x200" class="port-images" alt="filler image" />
-          <div class="textbox">
-            <div class="content">
-              <p>Word Guess</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-sm-6">
-          <img src="http://placehold.it/200x200" class="port-images" alt="filler image" />
-          <div class="textbox">
-            <div class="content">
-              <p>RPG Game</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-sm-6">
-          <img src="http://placehold.it/200x200" class="port-images" alt="filler image" />
-          <div class="textbox">
-            <div class="content">
-              <p>Trivia Game</p>
-            </div>
-          </div>
-        </div>
-
-
-        <div class="col-sm-6">
-          <img src="http://placehold.it/200x200" class="port-images" alt="filler image" />
-          <div class="textbox">
-            <div class="content">
-              <p>Info Widget</p>
-            </div>
-          </div>
-        </div>
-
-      </div>
-
-      <div class="row">
-        <div class="col-sm-6">
-          <img src="http://placehold.it/200x200" class="port-images" alt="filler image" />
-          <div class="textbox">
-            <div class="content">
-              <p>Rock Paper Scissors</p>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
 
-  </main>
+      <!-- Project 1 section -->
+
+
+      <div class="row">
+        <section class="content-boxes">
+          <img src="./assets/images/checkpoint-demo.gif" class="float-left" alt="Gif Demo of the checkpoint video game search page" />
+          <h2>Checkpoint Video Game Search</h2>
+          <p>
+            A simple calendar application that allows the user to save events for each hour of a typical 9-5 work day. The
+            calendar is color coded based on the time of day (Past, Current, Future). All inputs are saved onto the users
+            local storage.
+          </p>
+          <a href="https://kellijarrell.github.io/Checkpoint/" target="_blank"> <button type="button"
+              class="btn btn-outline-light">View Here</button></a>
+        </section>
+      </div>
+
+    <!-- Weather app Secrion -->
+
+    <div class="row">
+      <section class="content-boxes">
+        <img src="./assets/images/weather-demo.gif" id="float-right" alt="Gif Demo of the weather dashboard page" />
+        <h2>Weather Dashboard</h2>
+        <p>
+          A weather dashboard that allows the user to pull data from the OpenWeather API. By entering a city into the
+          sarch bar the user can find out the current weather and a 5 day forecast of that city. Previous inputs are
+          saved to the side bar as buttons to reuse as needed.
+        </p>
+        <a href="https://kellijarrell.github.io/weather-dash-homework/" target="_blank"> <button type="button"
+            class="btn btn-outline-light">View Here</button></a>
+      </section>
+    </div>
+
+    <!-- Daily Planner section -->
+
+    <div class="row">
+      <section class="content-boxes">
+        <img src="./assets/images/calendar-demo.gif" class="float-left" alt="Gif Demo of the calendar page" />
+        <h2>Work Daily Planner</h2>
+        <p>
+          A simple calendar application that allows the user to save events for each hour of a typical 9-5 work day. The
+          calendar is color coded based on the time of day (Past, Current, Future). All inputs are saved onto the users
+          local storage.
+        </p>
+        <a href="https://kellijarrell.github.io/work-calendar-homework/" target="_blank"> <button type="button"
+            class="btn btn-outline-light">View Here</button></a>
+      </section>
+    </div>
+
+  </main> 
 
   <footer>
-    <p>Copyright Kelli Jarrell 2020</p>
+    <div>
+      <a href="https://github.com/kellijarrell" target="_blank">
+        <button class="btn gitBtn">Github <i class="fab fa-github"></i> |</button></a>
+        <a href="https://www.linkedin.com/in/kelli-jarrell-b71313112/" target="_blank">
+        <button class="btn gitBtn">linkedin <i class="fab fa-linkedin"> |</i></button></a>
+      </div>
   </footer>
-
 
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
